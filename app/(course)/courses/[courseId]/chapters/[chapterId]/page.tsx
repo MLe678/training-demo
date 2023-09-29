@@ -8,8 +8,8 @@ import { Separator } from "@/components/ui/separator";
 import { Preview } from "@/components/preview";
 
 import { VideoPlayer } from "./_components/video-player";
-import { CourseEnrollButton } from "./_components/course-enroll-button";
-import { CourseProgressButton } from "./_components/course-progress-button";
+//import { CourseEnrollButton } from "./_components/course-enroll-button";
+//import { CourseProgressButton } from "./_components/course-progress-button";
 
 const ChapterIdPage = async ({
   params
@@ -75,7 +75,7 @@ const ChapterIdPage = async ({
             <h2 className="text-2xl font-semibold mb-2">
               {chapter.title}
             </h2>
-            {purchase ? (
+            {/* {purchase ? (
               <CourseProgressButton
                 chapterId={params.chapterId}
                 courseId={params.courseId}
@@ -87,7 +87,7 @@ const ChapterIdPage = async ({
                 courseId={params.courseId}
                 price={course.price!}
               />
-            )}
+            )} */}
           </div>
           <Separator />
           <div>

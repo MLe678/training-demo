@@ -1,4 +1,4 @@
-Demo project for uploading training videos and files. Built using Typescrtipt, React, Tailwind, and MySQL.
+Demo project for uploading training videos and files. Built using Typescrtipt, React, Next, Tailwind, and MySQL.
 
 Features:
 
