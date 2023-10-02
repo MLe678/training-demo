@@ -24,11 +24,7 @@ const teacherRoutes = [
     label: "Courses",
     href: "/teacher/courses",
   },
-  {
-    icon: BarChart,
-    label: "Analytics",
-    href: "/teacher/analytics",
-  },
+  
 ]
 
 export const SidebarRoutes = () => {
